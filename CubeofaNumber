@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+int num;
+printf("Enther the numher to find the cube of it\n");
+scanf("%d", &num);
+printf("The cube of the number :\n%d", num*num*num);
+/* this program takes a numher from the user and finds the cube of it */
+return 0;
+}
