@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    
+    int a,b;
+    printf("Enter two numbers:\n");
+    scanf("%d%d", &a,&b);
+    
+ /*   if (a>b){
+        printf("A is bigger number");
+    } else {
+        printf("B is bigger numver");
+    }
+  
+    /* Ternary operator (used for single & simple conditions)*/
+    
+    a>b? printf("A is biggee"):printf("B is bigger");   
+       
+    return 0; 
+}
+   
