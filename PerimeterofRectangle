@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int length, breadth;
+    printf("Enter length\n");
+    scanf("%d", &length);
+    printf("Enter breadth\n");
+    scanf("%d", &breadth);
+    printf("the perimeter of the rectangle :\n%d", 2*length+breadth);
+    /*program for finding the perimeter of a rectangle*/
+   return 0;
+}
