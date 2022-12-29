@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(){
+    
+    char ab;
+    printf("Enter a letter\n");
+    scanf("%c", &ab);
+    
+    if (ab>= 65 && ab<=95){
+        printf("its an Upper case letter");
+    } else if (ab >= 97 && ab <= 122) {
+        printf("its an lowcase letter");
+    } else {
+        printf("its an invaild character");
+    }
+    return 0;
+    
+}
