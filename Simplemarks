@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+    int marks;
+    printf("Enter your marks: \n");
+    scanf("%d", &marks);
+    
+    if (marks <=30) 
+    {
+    printf("You're failed");
+    } 
+    else if (marks <=0 || marks >100) 
+    {
+      printf("dont act smart!");
+    }
+    else {
+        printf("you're passed!");
+    }
+    return 0;
+ }   
+
+  
