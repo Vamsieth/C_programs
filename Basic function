@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+void printtelugu();
+void printenglish();
+
+int main()
+{
+    char v;
+    printf("Enter t for telugu and e for english\n");
+    scanf("%c", &v);
+    if (v == 't')
+        printtelugu();
+    else
+        printenglish();
+
+    return 0;
+}
+
+void printtelugu()
+{
+    printf("Namaste\n");
+    printenglish();
+}
+
+void printenglish()
+{
+    printf("Hello\n");
+}
